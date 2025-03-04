@@ -1,0 +1,10 @@
+streamlit
+langchain # Updated to a newer version
+langchain-groq
+deep-translator
+fpdf
+pandas
+plotly
+pdfplumber
+openpyxl
+langchain-text-splitters
