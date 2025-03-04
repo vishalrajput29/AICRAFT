@@ -13,7 +13,7 @@ import re
 
 # Initialize Groq LLM
 try:
-    GROQ_API_KEY = "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"  # Replace with your actual Groq API key
+    GROQ_API_KEY = ""  # Replace with your actual Groq API key
     llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="Mixtral-8x7b-32768", streaming=True)
 except Exception as e:
     st.error(f"Failed to initialize Groq client: {e}")
