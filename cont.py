@@ -11,9 +11,8 @@ import random
 import time
 import re
 
-# Initialize Groq LLM
 try:
-    GROQ_API_KEY = ""  # Replace with your actual Groq API key  
+    GROQ_API_KEY = st.secrets["groq"]["api_key"]  # Get API key securely
     llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="Mixtral-8x7b-32768", streaming=True)
 except Exception as e:
     st.error(f"Failed to initialize Groq client: {e}")
