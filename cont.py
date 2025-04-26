@@ -593,4 +593,4 @@ else:
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.markdown("Built by ❤️ **TEAM OUTLIERS**")
+st.sidebar.markdown("Built by ❤️ **Vishal**")
